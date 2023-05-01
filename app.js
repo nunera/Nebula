@@ -195,6 +195,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "index.html"));
 });
 
+app.get("/load", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "load.html"));
+});
+
 app.get("/options", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "options.html"));
 });
