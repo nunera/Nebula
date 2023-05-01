@@ -16,7 +16,7 @@ function setDefaultsIfUndefined() {
     if (localStorage.ABtitle == undefined) localStorage.setItem("ABtitle", "")
     if (localStorage.ABfaviconURL == undefined) localStorage.setItem("ABfaviconURL", "")
     if (localStorage.theme == undefined) localStorage.setItem("theme", "metallic")
-    if (localStorage.proxy == undefined) localStorage.setItem("proxy", "osana")
+    if (localStorage.proxy == undefined) localStorage.setItem("proxy", "uv")
 }
 setDefaultsIfUndefined();
 
