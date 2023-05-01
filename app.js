@@ -203,6 +203,10 @@ app.get("/options", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "options.html"));
 });
 
+app.get("/uv.sw-handler.js", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "uv.sw-handler.js"));
+});
+
 app.get("/privacy", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "privacy.html"));
 });
