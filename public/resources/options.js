@@ -11,12 +11,12 @@ function switchProxy() {
 }
 
 function setDefaultsIfUndefined() {
-    if (localStorage.ADVcloak == undefined) localStorage.setItem("ADVcloak", "off")
-    if (localStorage.nogg == undefined) localStorage.setItem("nogg", "off")
+    if (localStorage.ADVcloak == undefined) localStorage.setItem("ADVcloak", "on")
+    if (localStorage.nogg == undefined) localStorage.setItem("nogg", "on")
     if (localStorage.ABtitle == undefined) localStorage.setItem("ABtitle", "")
     if (localStorage.ABfaviconURL == undefined) localStorage.setItem("ABfaviconURL", "")
-    if (localStorage.theme == undefined) localStorage.setItem("theme", "dark")
-    if (localStorage.proxy == undefined) localStorage.setItem("proxy", "uv")
+    if (localStorage.theme == undefined) localStorage.setItem("theme", "metallic")
+    if (localStorage.proxy == undefined) localStorage.setItem("proxy", "osana")
 }
 setDefaultsIfUndefined();
 
