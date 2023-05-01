@@ -85,7 +85,7 @@
         </p>
     </div>
     <script>
-                let url = atob(decodeURIComponent(window.location.hash.slice(1)));
+                let url = window.location.hash.slice(1);
                 let search;
                 switch (localStorage.getItem('incog||search')) {
                     case 'google':
